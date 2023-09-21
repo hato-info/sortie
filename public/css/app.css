@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    /*background: url('http://127.0.0.1:8000/imagecss/img1.jpg');
+    background-size: cover;*/
+    background-color: cornflowerblue;
+    background-position: center center;
+    font-family: "Open Sans";
+    color: #ececec;
+}
+
+section{
+    height: 100vh;
+    width: 90vh;
+}
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: -o-linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #000;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.control label{
+    font-size: 1.2em;
+    color: #ececec;
+}
+
+.control input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #000;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+}
+
+.control input[type="submit"]{
+    background: crimson;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    opacity: .8;
+ }
+
+ .control input[type="submit"]:hover{
+    opacity: 1;
+ }
+
+ .link{
+    text-align: center;
+ }
+ .link a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    opacity: .6;
+    transition: opacity .3s ease;
+ }
+
+ .link a:hover{
+    opacity: 1;
+ }
+
+ 
